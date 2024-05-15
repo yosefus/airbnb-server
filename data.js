@@ -1,6 +1,4 @@
 export const hotelImages = [
-   "https://media.istockphoto.com/id/1425888985/photo/green-branch-plant-on-fresh-bathroom-towels.jpg?b=1&s=170667a&w=0&k=20&c=BQl68du6LjUHHYbp3-kmOAAn4BA6cwYFkdOrzSnx674=",
-   "https://cdn.pixabay.com/photo/2021/11/28/11/54/bed-6830011_1280.jpg",
    "https://cdn.pixabay.com/photo/2016/03/28/09/34/bedroom-1285156_640.jpg",
    "https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_640.jpg",
    "https://cdn.pixabay.com/photo/2019/05/28/00/15/indoors-4234071_640.jpg",
@@ -19,6 +17,5 @@ export const hotelImages = [
    "https://cdn.pixabay.com/photo/2017/01/14/12/48/hotel-1979406_640.jpg",
    "https://cdn.pixabay.com/photo/2024/05/09/11/39/ai-generated-8750742_640.jpg",
    "https://cdn.pixabay.com/photo/2024/05/09/11/39/ai-generated-8750738_640.jpg",
-   "https://media.istockphoto.com/id/1482326431/photo/interior-bedroom-wall-mockup-3d-rendering-3d-illustration.jpg?b=1&s=170667a&w=0&k=20&c=4rhpUr9x-W28X_7kyKP8ufQO9ZOQREGoiUfplA3uCg4=",
-   "https://media.istockphoto.com/id/1452529483/photo/3d-render-of-luxury-hotel-room.jpg?b=1&s=170667a&w=0&k=20&c=u8emlx6KguYJGU4jZFRwGx9KAxOzWLmEBdIJIj1DAdQ="
+   
 ]

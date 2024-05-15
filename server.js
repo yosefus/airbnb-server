@@ -4,6 +4,7 @@ import { hotelImages } from './data.js';
 
 const app = express();
 const port = 3003;
+
 const generateListing = () => ({
   id: faker.database.mongodbObjectId(),
   title: faker.lorem.sentence(),
@@ -51,3 +52,6 @@ app.get('/api/listings/:id', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+// http://localhost:3003/api/listings
+// http://localhost:3003/api/listings/3434
