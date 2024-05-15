@@ -16,7 +16,7 @@ const generateListing = () => ({
     latitude: parseFloat(faker.location.latitude()),
     longitude: parseFloat(faker.location.longitude()),
   },
-  price_per_night: parseFloat(faker.commerce.price({ min: 100, max: 1000, symbol: '$' })),
+  price_per_night: faker.commerce.price({ min: 100, max: 1000, symbol: '$' , dec: 8}),
   rating: faker.number.float({ multipleOf: 0.1, max: 5 }),
   amenities: faker.helpers.arrayElements(
     ['Wi-Fi', 'Kitchen', 'Parking', 'Washer', 'Air Conditioning', 'Pool', 'Gym', 'Pet Friendly'],
